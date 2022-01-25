@@ -65,6 +65,8 @@ h1 {
   input {
     display: block;
     margin: 0 auto;
+    width: 80%;
+    margin-bottom: 10px;
   }
   h1 {
     width: 100%;
