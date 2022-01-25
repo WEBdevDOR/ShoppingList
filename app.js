@@ -16,7 +16,7 @@ const addToList = function() {
 };
 const clearList = function() {
   list.innerText = '';
-}
+};
 
 // Events
 addBtn.addEventListener('click', addToList);
@@ -24,9 +24,9 @@ input.addEventListener('keydown', function(e) {
   if (e.key === 'Enter') {
     addToList();
   }
-})
+});
 clearBtn.addEventListener('click', clearList);
 list.addEventListener('click', function(e) {
   const current = e.target;
   current.remove();
-})
+});
