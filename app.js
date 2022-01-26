@@ -28,5 +28,5 @@ input.addEventListener('keydown', function(e) {
 clearBtn.addEventListener('click', clearList);
 list.addEventListener('click', function(e) {
   const current = e.target;
-  current.remove();
+  current.nodeName === 'LI' && current.remove();
 });
